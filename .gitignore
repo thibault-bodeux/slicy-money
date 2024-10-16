@@ -1,0 +1,13 @@
+# Node dependencies
+node_modules
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# MacOS auto-generated files
+.DS_Store

@@ -1,0 +1,7 @@
+@use "sass:meta" as meta;
+
+@layer preflight { @include meta.load-css("preflight"); }
+
+@layer layout { @include meta.load-css("layout"); }
+
+@layer utilities { @include meta.load-css("utilities"); }

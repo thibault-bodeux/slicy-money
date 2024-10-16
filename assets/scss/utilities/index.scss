@@ -1,0 +1,14 @@
+.u-container {
+  inline-size: 100%;
+  max-inline-size: 720px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.u-text-colorized {
+  color: #16a34a;
+}
+
+.u-text-underlined {
+  box-shadow: inset 0 -2px 0 0 #16a34a;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "slicy-money",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "stylelint": "stylelint \"**/*.{css,scss}\"",
+    "stylelint:fix": "stylelint \"**/*.{css,scss}\" --fix",
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.6.0",
+    "@nuxt/fonts": "^0.10.0",
+    "@nuxt/icon": "^1.5.6",
+    "@nuxt/image": "^1.8.1",
+    "@pinia/nuxt": "^0.5.5",
+    "nuxt": "^3.13.2",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@stylistic/stylelint-config": "^2.0.0",
+    "gsap": "^3.12.5",
+    "sass": "^1.79.5",
+    "stylelint": "^16.10.0",
+    "stylelint-config-clean-order": "^6.1.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-order": "^6.0.4",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.6"
+  }
+}
